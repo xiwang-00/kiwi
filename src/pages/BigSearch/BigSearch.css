@@ -1,0 +1,19 @@
+.search-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: 40px;
+}
+.search-cards .card-item{
+    height: 380px;
+}
+.search-texts{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #41D481;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}

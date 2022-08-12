@@ -1,0 +1,83 @@
+.header-top{
+    padding-top: 12px;
+    padding-bottom: 16px;
+}
+.header-top-logo{
+    width: 67px;
+    display: block;
+}
+.header-top-text{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+    max-width: 138px;
+    margin-left: 14px;
+}
+.header-top-logos{
+    display: flex;
+    align-items: center;
+}
+.header-top-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header-top-list a{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.header-top-btns button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #4A4A4A;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top-links a{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #4E72CA;
+}
+.header-top-links{
+    margin-left: 67px;
+}
+.header-top-links:hover{
+    border-bottom: 1px solid #4E72CA;
+}
+.act-class{
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.0647645);
+   
+}
+.btn-act{
+    background-image: url('../../../assets/img/line.png');
+}
+.user-name{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #11B463;
+    text-transform: uppercase;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.header-top-btns{
+    display: flex;
+    align-items: center;
+}

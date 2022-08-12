@@ -1,0 +1,89 @@
+.info-content{
+    width: 50%;
+    margin-top: 16px;
+}
+.info-top-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -5.89155e-05px;
+    color: #414D6A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.info-price{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: -0.00016833px;
+    color: #444444; 
+    margin-bottom: 10px;
+}
+.info-blu-link{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -5.89154e-05px;
+    text-decoration-line: underline;
+    color: #4E72CA;   
+    display: block;
+   
+}
+.info-sub{
+    vertical-align: sub;
+}
+.info-sub-num{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 2.1px;
+    color: #000000;
+   
+}
+.infotext{
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    
+}
+.info-gerin-link{
+    background: #65E99F;
+    border-radius: 18.5px;
+    padding: 4px 0 0px 23px;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.infotext{
+    background: #41D481;
+    border-radius: 18.5px;
+    padding: 9px 24px;
+}
+.info-after{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -3.17237e-05px;
+    color: #000000;  
+    margin-bottom: 20px;  
+}
+.info-after span {
+    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -4.13787e-05px;
+    text-decoration-line: underline;
+    color: #2AAE63;   
+}
+.info-description{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: -3.85217e-05px;
+    color: #414D6A;
+    
+}

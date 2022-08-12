@@ -1,0 +1,38 @@
+.card-item-img{
+    margin: 0 auto;
+}
+
+.card-item-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 160px;
+    color: #000000;
+}
+.card-item{
+    width: 200px;
+    display: block; 
+    border: 1px solid #e5e5e5; 
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-item-price{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 4px;
+    display: flex;
+    gap: 10px;
+}
+.card-item-imgs{
+    width: 100%;
+    height: auto;
+}
+.card-item:hover{
+    background-color: rgba(255, 255, 255, 0.616);
+}

@@ -1,0 +1,117 @@
+.header-bottom{
+    background: #FFFFFF;
+    border: 1px solid #9797977f;
+    border-radius: 22.5px; 
+    position: relative;  
+    display: flex;
+    align-items: center;
+    max-width: 904px; 
+}
+.header-bottom-select{
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 171px;
+    padding: 13px 0px 13px 30px;
+    margin-right: 29px;
+    position: relative;
+    cursor: pointer;
+}
+.header-bottom::before{
+    content: "";
+    height: 100%;
+    background-color: #9797975e;
+    width: 1px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+
+}
+.header-bottom-input{
+    width: 328px;
+    height: 100%;
+    border-right: 1px solid rgba(151, 151, 151, 0.370273);
+}
+.header-bottom-input input{
+    padding: 13px 25px;
+    border: none;
+    outline: unset;
+}
+.header-bottom-input input::placeholder{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    
+}
+.header-bottom-rit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-bottom-rit p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0 0 0 24px;
+    cursor: pointer;
+}
+.header-bottom-rit p::after{
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-image: url('../../../assets/img/chevron.png');
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 27px;
+    margin-top: 3px;
+}
+.header-bottom-rit a{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+    padding: 14px 18px;   
+    background: #19D476;
+    border-radius: 22px; 
+    margin-left: 54px;   
+}
+.header-bottom-link span{
+    width: 44px;
+    height: 44px;
+    background: #11B463;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+.header-bottoms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 17px;
+}
+.header-bottom-link{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #19D476;
+    border-radius: 22px;
+    padding-right: 26px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    overflow: hidden;
+
+}
+.act-class{
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.0647645);
+   
+}

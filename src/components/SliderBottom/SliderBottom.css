@@ -1,0 +1,17 @@
+.slider-bottom{    
+    background: #b6cafb29;
+    box-shadow: inset 0px 21px 13px #b6cafb39;
+    height: 330px;
+    padding-top: 48px;
+}
+.sliderBottom-img{
+    width: 359px;
+    height: 238px;
+    text-align: center;
+}
+.slider-bottom .slick-track{
+    display: flex;
+}
+.slider-bottom  .slick-list{
+    overflow: hidden;
+}

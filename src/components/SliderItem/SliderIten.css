@@ -1,0 +1,20 @@
+.slider-item{
+    width: 125px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 30;
+}
+.slider-item p {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4A4A4A;
+
+}
+.slider-item div{
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}

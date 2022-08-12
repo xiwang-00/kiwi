@@ -1,0 +1,158 @@
+.sign-img,
+.sign-form{
+    width: 50%;
+}
+.sign-img{
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/img/signBgs.png');
+}
+.sign-all{
+    display: flex;
+    align-items: center;
+}
+.sign-content{
+    width: 275px;
+    height: 275px;
+    position: absolute;
+    left: 61px;
+    top: 280px;
+    background: #FFFFFF;
+    border-radius: 220px 220px 220px 25px;
+    padding: 55px;
+}
+.sign-imgs{
+    width: 50px;
+    height: 26px;
+}
+.sign-tetx{
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 21px;
+    color: #787993;
+    margin-top: 7px;
+    margin-bottom: 18px;
+    
+}
+.sign-btn{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #41D481;
+    padding: 8px 12px;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #41D481;
+    border-radius: 5px;
+}
+.sign-form{
+    height: 100vh;
+    position: relative;
+}
+.sign__block{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sign__title{
+    width: 360px;
+    margin-bottom: 77px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.sign-lable{
+    width: 360px;
+    display: block;
+    margin-bottom: 26px;
+}
+.sign-lable input{
+    width: 100%;
+    padding: 20px 26px;
+    background: #FFFFFF;
+    border: 1px solid #9797977b;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+}
+.sign-link{
+    display: block;
+    background: #41D481;
+    border-radius: 5px;
+    padding: 21px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    
+}
+.sign-bottm{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #787993;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+}
+.sign-bottm span{
+    display: block;
+    height: 1px;
+    background-color: #979797;
+    width: 50%;
+}
+.sign-links{
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #4E72CA;
+    margin-top: 27px;
+
+}
+.sign-form button{
+    cursor: pointer;
+    border: none;
+    display: block;
+    width: 100%;
+}
+.singn-rigiht{
+    background: #FFFFFF;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.279127);
+    border-radius: 5px;
+    padding: 31px 35px;
+    display: block;
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-image: url('../../assets/img/fil.png');
+}
+.signblok{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 42px;
+}
+.sign-lable{
+    position: relative;
+}
+.sign-lable span{
+    position: absolute;
+    color: #ad3838;
+    left: 0;
+    bottom: -21px;
+    font-size: 13px;
+}

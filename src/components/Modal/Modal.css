@@ -1,0 +1,79 @@
+.modal{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    height: 100%;
+    background-color:#ffffffc8;
+    top: 0;
+    left: 0;
+}
+.modal-item{
+    padding: 14px 29px;
+    position: absolute;
+    width: 1143px;
+    left: 50%;
+    height: 227px;
+    top: 287px;
+    transform: translateX(-50%);
+    background: #FFFFFF;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.209296);
+}
+.modal-list{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.modal-iiner{
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    height: 66%;
+    margin-left: 30px;
+}
+.modal-iiners{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    padding-top: 17px;
+}
+.modal-btn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -6.7332e-05px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+.modal-btn::before{
+    content: "";
+    display: inline-block;
+    width: 26px;
+    height: 15px;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+    background-image: url('../../assets/img/chevronLeft.png');
+}
+.modal-links{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -6.7332e-05px;
+    text-decoration-line: underline;
+    color: #4E72CA;
+    margin-left: 27px;
+}

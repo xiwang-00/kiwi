@@ -1,0 +1,59 @@
+.slider-list{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    position: relative;
+    margin-bottom: 31px;
+}
+
+.slick-slider{
+    position: relative;
+    z-index: 50;
+}
+
+.slider-list .slick-track{
+    display: flex;
+}
+.slider-list .slick-list{
+    overflow: hidden ;
+}
+.slider-list .slick-prev {
+    position: absolute;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -22px;
+    z-index: 4;
+    font-size: 0;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.129331);
+    background-position: center center;
+    height: 30px;
+    background-image: url('../../assets/img/rigiht.png');
+}
+.slider-list .slick-next{
+    position: absolute;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    left: 0;
+    z-index: 4;
+    background-repeat: no-repeat;
+    top: 40%;
+    font-size: 0;
+    transform: translateY(-50%); 
+    background-position: center center;
+    left: -22px; 
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.129331);
+    height: 30px;
+    background-image: url('../../assets/img/chevronLeft.png'); 
+}
